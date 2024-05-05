@@ -1,0 +1,69 @@
+>> Functions
+    void main(){
+
+    }
+
+>> Class
+    class main(){
+        void main(){
+            <Code to execute>
+        }
+    }
+
+>> Output
+    System.out.print("Hello World");
+    System.out.println("Hello World");
+    System.out.print("Hello World\n");
+
+    # ";"-> Terminate
+    # output printed using system class
+
+>> Variable and constant
+>> Datatypes
+    > JAVA is typed language. which means we need to define the type of variable before using it.
+    . Two types of Datatypes:
+        > Primitive: pre-defined Datatypes
+
+            > byte(1byte or 8bits), short, char(2 bytes), boolean(1 bytes), int(4 bytes), long(8), float, double
+        > Non-Primitive: Can be customized
+
+            > String, Array, Class, Object, Interface
+
+>> Operators Priority
+     * / % > +-
+     public class Day2 {
+        public static void main(String[] args) {
+            //variables
+            int a = 25;
+            int b = 10;
+            int sum = a + b;
+            System.out.println(sum);
+            int diff = a-b;
+            System.out.println(diff);
+            int mult = a*b;
+            System.out.println(mult);
+    
+        }
+    }
+
+>> Input: In jAVA we use scanner class to get the input
+import java.util.*;
+public class Day2 {
+    public static void main(String[] args) {
+        //input
+        Scanner sc = new Scanner(System.in);  // Here Scanner is class and "sc" is the object created out of it
+        String name = sc.next();    // Next is the function here associated with the Sacnner
+        String fullName = sc.nextLine();
+        System.out.println(name);
+        // nextInt()
+        // nextFloat()
+        System.out.println(fullName);
+
+    }
+}
+
+>> Homework Problems
+Try to declare meaningful variables of each type. Eg - a variable named age should be a numeric type (int or float) not byte.
+Make a program that takes the radius of a circle as input, calculates its radius and area and prints it as output to the user.
+Make a program that prints the table of a number that is input by the user. 
+(HINT - You will have to write 10 lines for this but as we proceed in the course you will be studying about ‘LOOPS’ that will simplify your work A LOT!)
