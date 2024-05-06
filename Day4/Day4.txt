@@ -1,0 +1,48 @@
+>> Loops
+
+    > for Loop:
+    for (innitialization; condition; updation) {
+            # do something
+    }
+
+    # Example:
+    public class Day4 {
+        public static void main(String[] args) {
+            for (int counter = 0; counter < 100; counter ++) {
+                System.out.println("Hello World");
+            }
+        }
+    }
+    > while Loop:
+    while (condition) {
+            
+    }
+
+    # Example: 
+    public class Day4 {
+        public static void main(String[] args) {
+            int i = 0;
+            while (i<11) {
+                System.out.println(i);
+                i++;
+            }
+        }
+    }
+    > do while Loop
+        > do {
+            
+        } while (condition);
+
+        # Example:
+        public class Day4 {
+            public static void main(String[] args) {
+                int i = 0;
+                do {
+                    System.out.println(i);
+                    i++;
+                } while (i<11);
+                
+            }
+            
+        }
+        
