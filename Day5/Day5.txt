@@ -1,0 +1,37 @@
+>> 9 Best patterns questions in JAVA
+    >> Nested Loops
+    >> Tips: Outer loop for rows and inner loop for cols
+Question 1. Print pattern Solid rectangle
+# 4 rows 5 columns
+*****
+*****
+*****
+*****
+
+Question 2. Print hollow rectangle
+    Hint:- Check the index value of the stars
+*****
+*   *
+*   *
+*****
+
+Question 3. Print half pyramid
+    Hint:-
+        Otter loop: for(i=1 to n) 
+        Inner loop: for(j =1 to i)
+*
+**
+***
+****
+
+Question 4. Inverter pyramid
+****
+***
+**
+*
+
+Question 5. Inverted half pyramid(roated by 180deg)
+   *
+  **
+ ***
+****
