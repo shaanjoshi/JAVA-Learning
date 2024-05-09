@@ -31,7 +31,54 @@ Question 4. Inverter pyramid
 *
 
 Question 5. Inverted half pyramid(roated by 180deg)
-   *
-  **
- ***
-****
+   *  -- 3 space 1 star || n-i=3, i= 1
+  **  -- 2 space 2 stars || n-i=2, i =2
+ ***  -- 1 space 3 stars || n-i=1, i =3
+****  -- 0 space 4 stars || n-i=0, i = 4
+
+for(i=1 to n) --> for rows
+for(j=1 to i) --> stars
+for(j=1 to n-1) --> space
+
+there will be 2 inner loop in this question 
+
+Question 6. Print below pattern
+1
+12
+123
+1234
+12345
+
+Question 7. Print below pattern
+12345
+1234
+123
+12
+1
+
+Row: for(i=1 to n)
+col: for(j=1 to n-i+1)
+
+Question 8. Print Floyd's triangle
+
+1               
+2 3
+4 5 6
+7 8 9 10
+11 12 13 14 15
+
+n=5(total number of rows)
+
+Row: (i=1, n)   
+col: ()
+
+Question 9. Print 0-1 triangle
+
+1
+01
+101
+0101
+10101
+
+i+j = EVEN = 1
+i+j = ODD =0
