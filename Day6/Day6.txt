@@ -1,0 +1,30 @@
+>> Advanced Pattern Question
+
+Question 10. Print the Butterfly Pattern (n=4)
+
+*      *
+**    **
+***  ***
+********
+********
+***  ***
+**    **
+*      *
+           (n-i)
+R1  1star  6space  1star
+R2  2star  4space  2star
+R3  3star  2space  3star
+R4  4star  0space  4star
+
+
+Question 11. Print diamond pattern (n=4)
+
+
+   *
+  ***
+ *****
+*******
+*******
+ *****
+  ***
+   *
