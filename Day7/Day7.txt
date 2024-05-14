@@ -1,0 +1,32 @@
+>> Function 
+    -> A block of code which takes input, performs some operation and gives output
+    ---> Input ------> Operation -----> output
+
+    -> public static returnType functionName(type arg1, type arg2...){
+        # operation 
+    } 
+
+        -> returnType can be anything like int, dloat string and so on.
+            It can only return single type of value. 
+            It means what kind of value it can return.
+            for example:
+                int -> this type returns integer type variable
+                float -> this type will reurn float type variable
+                void -> this means no return. Used in main function of the code. 
+        -> public, static are written before the main class or primary class of any code. This will be discussed later while learing OOPs
+
+        -> functionName-> can be anything accepts java keywords
+        -> arguments-> means inputs, for giving any argument/input we need to define its type.
+
+
+    -> What happens in memory when we create function?
+        -> All the function get saved in form of stack in the memory
+        -> When any single thing is saved to stack it is known as stack frame
+        -> When we created main function the first frame will be of Main() function which includes all its variable
+        -> When main function calls the other secondary function, another stack frame got created for a new function including all the variables
+        -> Now when the secondary function got completly executed and returns the output to the main function then its stack frame gets removed from memory
+        -> Once main function complete its execution then its stack frame also gets removed.
+
+    >> Diffrence between Function and Method: Methos are called with help of objects from the class while function are called directly
+
+    
